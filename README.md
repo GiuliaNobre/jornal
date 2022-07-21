@@ -1,1 +1,1 @@
-# gru1::k5knz-1658429587408-7b202e08f782
+https://jornal-two.vercel.app/
