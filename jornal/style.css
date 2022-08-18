@@ -1,45 +1,137 @@
 @charset "UTF-8";
-*{
+
+
+body {
+    font-family: "Lato", sans-serif
+}
+
+* {
     box-sizing: border-box;
 }
 
-body{ 
+body {
     padding: 10px;
-    
+    background-color: #FFFFFF;
 
 }
-header{
-    padding: 30px;
+
+.container-content-center-padding-64 {
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color: white;
+    margin: 50px;
+    width: auto;
 }
-header h1{
-    font-size: 50px;
+.top-nav {
+    overflow: hidden;
+    background-color: #A25430;
 }
-.topnav{
-    overflow:hidden;
-    background-color: aliceblue;
-}
-.topnav a{
-    float:left;
+
+.top-nav a {
+    float: left;
     display: block;
-    color:black;
+    color:#FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-.topnav hover {
-    background-color: ;
-    color: ;
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.content h1 {
+    text-align: center;
+    color: #5A5223;
+    
+margin: 50px;
+
 
 }
-.leftcolumn {
-    float: left;
-    width: 75%;
+
+.mySlides h3,
+b {
+    text-align: left;
+    color: #5A5223;
+    display: flex;
+   
+    justify-content: left;
+    
+    flex-wrap: nowrap;
+
+    flex-direction: row;
+
 }
-.rightcolumn {
-    float: left;
-    width: 25%;
-    background-color: ;
-    padding-left: 20px;
+
+.content h2 {
+    text-align: center;
+    color: #261D16;
+    
+    
 }
+
+
+.opacity{
+    text-align:center;
+    color:#A25430;
+}
+
+
+.texto-centro{
+    justify-content: center;
+    margin-top: 100px;
+}
+.container-content-center-padding-64{
+    text-align: center;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    margin-top: 20px;
+   
+    padding-top: 10px;
+}
+.texto{
+    color:#5A5223;
+}
+h3{
+    height: 5px;}
+
+    .justify{
+        color:#5A5223;}
+    
+
+
+.rodape{
+    margin: 100px;
+    margin-left: 25%;
+    
+    justify-content: center;
+}
+    .justify2{
+        color: #5A5223;
+    }
+    .container3{
+        color: #A25430;
+        grid-template-columns: 33% 33% 33% ;
+        
+       display: grid;
+        
+        margin-top: 20px;
+       
+        padding-top: 10px;
+    }
+    .container4{
+        color: #A25430;
+        grid-template-columns: 33% 33% 33% ;
+        
+       display: grid;
+        
+        margin-top: 20px;
+       
+        padding-top: 10px;
+    }
