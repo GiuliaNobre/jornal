@@ -1,12 +1,10 @@
 @charset "UTF-8";
 
 
-body {
-    font-family: "Lato", sans-serif
-}
 
-* {
-    box-sizing: border-box;
+
+* {box-sizing: content-box;
+
 }
 
 body {
@@ -19,8 +17,10 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
     margin: 50px;
     width: auto;
+    display: grid;
 }
 .top-nav {
     overflow: hidden;
@@ -28,16 +28,28 @@ body {
 }
 
 .top-nav a {
+   
+    color:#FFFFFF;
     float: left;
     display: block;
-    color:#FFFFFF;
+    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+    font-size: 17px;
+  
+    
+    
+  }
+  .top-nav a:hover {
+    background-color: #FFFFFF;
+    color:#A25430;
+  }
+    
+
 
 .top-nav {
-    display: flex;
+    overflow: hidden;
     flex-direction: row;
     justify-content: left;
     align-items: center;
@@ -85,13 +97,12 @@ b {
     justify-content: center;
     margin-top: 100px;
 }
-.container-content-center-padding-64{
-    text-align: center;
-}
+
 .container2{
     display: grid;
     grid-template-columns: 33% 33% 33% ;
     margin-top: 20px;
+    
    
     padding-top: 10px;
 }
@@ -106,12 +117,11 @@ h3{
     
 
 
-.rodape{
-    margin: 100px;
-    margin-left: 25%;
+
     
-    justify-content: center;
-}
+
+   
+
     .justify2{
         color: #5A5223;
     }
@@ -134,4 +144,23 @@ h3{
         margin-top: 20px;
        
         padding-top: 10px;
+    }
+    .img-rodape{
+        border-radius: 10px;
+        margin-top: 100px;
+        box-shadow: inset 0 0 1em gold, 0 0 1em #261D16;
+        
+       
+    
+    
+  
+    }
+    .rodape{
+        justify-content: center;
+        display: flex;
+        
+
+    }
+    .img1{
+       
     }
