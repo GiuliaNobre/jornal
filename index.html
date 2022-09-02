@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tudo Noticias</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet"> 
+  
+  <link rel="shortcut icon" href="livros.ico" type="TudoLivros">
+  <style>
+   
+    .top-nav {
+      display: flex;
+    }
+    .mySlides {
+      display: flex;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+
+  
+  <header class="top-nav">
+  
+  
+      <div class="book black card">
+       
+       
+        <a href="livros.ico">Tudo Livros</a>
+        <a href="index.html" class="bar-item button padding-large hide-small"> Home</a>
+        <a href="pagina1.html" class="bar-item button padding-large">Veja os beneficios da leitura</a>
+        <a href="pagina2.html" class="bar-item button padding-large hide-small">Saiba como cuidar dos livros</a>
+        <a href="pagina3.html" class="bar-item button padding-large hide-small">Confira os livros mais vendidos</a>
+       
+
+      </div>
+    </div>
+  </header>
+
+
+
+    
+    <main class="content">
+      <h1>Tudo Livros</h1>
+    </div>
+    <main class="content" style="max-width:2000px;margin-top:46px">
+    
+  
+
+    <aside>
+    <div class="mySlides display-container center">
+      <img src="img1.jpg" style="width:100%">
+      <div class="display-bottommiddle container text-white padding-32 whide-small">
+        <h3>TudoLivros</h3>
+        <p><b>Promoções de Livros </b></p>
+      </div>
+    </div>
+    <div class="mySlides display-container center">
+      <img src="img4.jpg" style="width:100%">
+      <div class="display-bottommiddle container text-white padding-32 hide-small">
+        <h3>TudoLivros</h3>
+        <p><b>Cuidado com os livros </b></p>
+      </div>
+    </div>
+    <div class="mySlides display-container center">
+      <img src="img5.jpg" style="width:100%">
+      <div class="display-bottommiddle container text-white padding-32 hide-small">
+        <h3>TudoLivros</h3>
+        <p><b>Beneficios da leitura</b></p>
+      </div>
+    </div>
+  </aside>
+
+  
+    
+    
+    <section class="container-content-center-padding-64" id="livros">
+      <h2 class="wide">Confira tudo sobre o mundo dos livros</h2>
+      <p class="opacity"><i>Livros são incriveis</i></p>
+      <p class="justify">
+    
+        O livro é de fundamental importância para o desenvolvimento das sociedades
+        e 
+        para o crescimento intelectual do indivíduo. <br> É ele que permite   ao ser
+        humano 
+        registrar fatos importantes da sua história e  repassar tais fatos <br> às
+        sociedades posteriores, 
+        atuando como vetor do conhecimento.
+        <br> </p>
+      </p> Confira a seguir algumas de dicas de livros que te ajudaram a sair do tédio.
+      </p>
+</section>
+      <div class="container2">
+        <div >
+          <p class="texto">Orgulho e Preconceito</p>
+          <img class="img1" src= "img6.jpg" alt="livros" height="600px"/>
+        </div>
+        <div>
+          <p class="texto">A vida indivisivel de Addie Larue </p>
+          <img src="img7.jpg"  alt="livro2" height="600px"/>
+        </div>
+        <div>
+          <p class="texto">Série Caraval</p>
+          <img src="img8.jpg"  alt="livro3" height="600px"/>
+        </div>
+      </div>
+     
+  
+    <footer>
+      <div class="rodape">
+        <img class="img-rodape" src="img79.png" alt="rodape" width="1600px" height="300">
+        
+        
+      </div>
+
+    </footer>
+  
+ 
+  <script>
+    // Automatic Slideslivros - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 4000);
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("livros") == -1) {
+        x.className += " livros";
+      } else {
+        x.className = x.className.replace(" livros", "");
+      }
+    }
+    
+    
+
+
+  </script>
+
+ 
+    
+  </body>
+</html>
