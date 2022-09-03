@@ -1,1 +1,1 @@
-jornal1-24ntxkw5t-giulianobre.vercel.app
+https://jornal1.vercel.app/
